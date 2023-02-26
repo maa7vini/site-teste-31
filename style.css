@@ -219,3 +219,57 @@ button:hover {
     transition: 1s;
 }
 
+@media (max-width: 660px) {
+    .card-principal {
+        height: 400px;
+        width: 500px;
+    }
+    
+    .card-left {
+        height: 400px;
+    }
+
+    .card-right {
+        height: 400px;
+    }
+}
+
+@media (max-width: 505px) {
+    .card-principal {
+        height: 600px;
+        width: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .card-left {
+        height: 50%;
+        width: 400px;
+    }
+
+    .card-left h3{
+        margin-top: -10px;
+    }
+
+    .result {
+        height: 130px;
+        width: 130px;
+        margin-top: 20px;
+    }
+
+    .card-right {
+        height: 50%;
+        width: 400px;
+    }
+
+    .right-container {
+        height: 200px;
+    }
+
+    button {
+        margin-top: 5px;
+    }
+}
+
